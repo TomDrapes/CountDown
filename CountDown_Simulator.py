@@ -333,7 +333,7 @@ def start():
                         break
 
     """All my labels"""
-    title_label = ttk.Label(frame2, text="Agra-Man", font=("Courier", 44))
+    title_label = ttk.Label(frame2, text="CountDown", font=("Courier", 44))
     title_label.grid(column=0, columnspan=3, row=1, sticky=N)
 
     time_label = ttk.Label(frame2, text=sec, justify=CENTER, font=("Courier", 34))
@@ -367,7 +367,6 @@ start_game.grid(column=0,  row=3)
 
 welcome_label = ttk.Label(frame, text='COUNTDOWN\nThe Letters\nand\nNumbers Game', justify=CENTER, font=("Courier", 44))
 welcome_label.grid(column=0, columnspan=3, row=0)
-
 
 
 root.mainloop()
