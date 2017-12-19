@@ -5,7 +5,7 @@ from tkinter import ttk
 import random
 
 root = Tk()
-root.title("Agraman")
+root.title("CountDown Simulator")
 
 
 frame = ttk.Frame(root, padding='3 3 3 3')
@@ -365,7 +365,7 @@ def start():
 start_game = ttk.Button(frame, text='Start Game', command=start)
 start_game.grid(column=0,  row=3)
 
-welcome_label = ttk.Label(frame, text='AGRAMAN\nThe Letters\nand\nNumbers Game', justify=CENTER, font=("Courier", 44))
+welcome_label = ttk.Label(frame, text='COUNTDOWN\nThe Letters\nand\nNumbers Game', justify=CENTER, font=("Courier", 44))
 welcome_label.grid(column=0, columnspan=3, row=0)
 
 
